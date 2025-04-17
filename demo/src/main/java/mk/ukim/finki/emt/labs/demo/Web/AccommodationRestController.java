@@ -1,6 +1,7 @@
 package mk.ukim.finki.emt.labs.demo.Web;
 
 import io.swagger.v3.oas.annotations.security.SecurityRequirement;
+import mk.ukim.finki.emt.labs.demo.Model.DTO.CategoryCountDTO;
 import mk.ukim.finki.emt.labs.demo.Model.domain.Accommodation;
 import mk.ukim.finki.emt.labs.demo.Model.DTO.AccommodationDTO;
 import mk.ukim.finki.emt.labs.demo.Service.AccommodationService;
@@ -49,5 +50,11 @@ public class AccommodationRestController {
     public ResponseEntity<Accommodation> markAsRented(@PathVariable Long ID) throws Exception{
          return ResponseEntity.ok(accommodationService.markAsRented(ID));
     }
+
+    @GetMapping("/category-counts")
+    public ResponseEntity<List<CategoryCountDTO>> getCategoryCounts() {
+        return ResponseEntity.ok(accommodationService.countByCategory());
+    }
+
 
 }

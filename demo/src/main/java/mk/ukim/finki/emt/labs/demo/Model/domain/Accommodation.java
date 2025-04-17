@@ -12,6 +12,7 @@ public class Accommodation {
 
     private String name;
 
+    @Enumerated(EnumType.STRING)
     private Category category;
 
     @ManyToOne

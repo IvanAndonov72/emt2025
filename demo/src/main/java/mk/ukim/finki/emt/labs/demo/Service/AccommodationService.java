@@ -1,5 +1,6 @@
 package mk.ukim.finki.emt.labs.demo.Service;
 
+import mk.ukim.finki.emt.labs.demo.Model.DTO.CategoryCountDTO;
 import mk.ukim.finki.emt.labs.demo.Model.domain.Accommodation;
 import mk.ukim.finki.emt.labs.demo.Model.DTO.AccommodationDTO;
 
@@ -15,4 +16,6 @@ public interface AccommodationService {
     void delete(Long ID);
 
     Accommodation markAsRented(Long ID) throws Exception;
+
+    List<CategoryCountDTO> countByCategory();
 }

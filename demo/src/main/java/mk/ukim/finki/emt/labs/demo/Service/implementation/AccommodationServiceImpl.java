@@ -1,5 +1,6 @@
 package mk.ukim.finki.emt.labs.demo.Service.implementation;
 
+import mk.ukim.finki.emt.labs.demo.Model.DTO.CategoryCountDTO;
 import mk.ukim.finki.emt.labs.demo.Model.domain.Accommodation;
 import mk.ukim.finki.emt.labs.demo.Model.DTO.AccommodationDTO;
 import mk.ukim.finki.emt.labs.demo.Model.domain.Host;
@@ -61,4 +62,10 @@ public class AccommodationServiceImpl implements AccommodationService {
 
         throw new RuntimeException("NO MORE ROOMS AVAILABLE TO RENT!");
     }
+
+    @Override
+    public List<CategoryCountDTO> countByCategory() {
+        return accommodationRepository.countByCategory();
+    }
+
 }
