@@ -1,7 +1,7 @@
 package mk.ukim.finki.emt.labs.demo.Web;
 
 import io.swagger.v3.oas.annotations.security.SecurityRequirement;
-import mk.ukim.finki.emt.labs.demo.Model.Accommodation;
+import mk.ukim.finki.emt.labs.demo.Model.domain.Accommodation;
 import mk.ukim.finki.emt.labs.demo.Model.DTO.AccommodationDTO;
 import mk.ukim.finki.emt.labs.demo.Service.AccommodationService;
 import org.springframework.http.ResponseEntity;

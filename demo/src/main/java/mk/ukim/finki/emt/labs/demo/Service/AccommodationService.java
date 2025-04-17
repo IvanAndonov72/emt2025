@@ -1,6 +1,6 @@
 package mk.ukim.finki.emt.labs.demo.Service;
 
-import mk.ukim.finki.emt.labs.demo.Model.Accommodation;
+import mk.ukim.finki.emt.labs.demo.Model.domain.Accommodation;
 import mk.ukim.finki.emt.labs.demo.Model.DTO.AccommodationDTO;
 
 import java.util.List;

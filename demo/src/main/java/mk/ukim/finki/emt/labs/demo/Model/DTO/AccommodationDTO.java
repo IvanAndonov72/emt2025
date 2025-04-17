@@ -1,11 +1,6 @@
 package mk.ukim.finki.emt.labs.demo.Model.DTO;
 
-import jakarta.persistence.GeneratedValue;
-import jakarta.persistence.GenerationType;
-import jakarta.persistence.Id;
-import jakarta.persistence.ManyToOne;
-import mk.ukim.finki.emt.labs.demo.Model.Category;
-import mk.ukim.finki.emt.labs.demo.Model.Host;
+import mk.ukim.finki.emt.labs.demo.Model.enums.Category;
 
 public class AccommodationDTO {
 

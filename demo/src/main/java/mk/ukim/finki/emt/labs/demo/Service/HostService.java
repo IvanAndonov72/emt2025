@@ -1,6 +1,6 @@
 package mk.ukim.finki.emt.labs.demo.Service;
 
-import mk.ukim.finki.emt.labs.demo.Model.Host;
+import mk.ukim.finki.emt.labs.demo.Model.domain.Host;
 
 import java.util.List;
 

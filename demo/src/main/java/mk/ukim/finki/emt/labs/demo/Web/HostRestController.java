@@ -1,6 +1,6 @@
 package mk.ukim.finki.emt.labs.demo.Web;
 
-import mk.ukim.finki.emt.labs.demo.Model.Host;
+import mk.ukim.finki.emt.labs.demo.Model.domain.Host;
 import mk.ukim.finki.emt.labs.demo.Service.HostService;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;

@@ -1,8 +1,8 @@
 package mk.ukim.finki.emt.labs.demo.DataHolder;
 
 import jakarta.annotation.PostConstruct;
-import mk.ukim.finki.emt.labs.demo.Model.Country;
-import mk.ukim.finki.emt.labs.demo.Model.Host;
+import mk.ukim.finki.emt.labs.demo.Model.domain.Country;
+import mk.ukim.finki.emt.labs.demo.Model.domain.Host;
 import mk.ukim.finki.emt.labs.demo.Repository.CountryRepository;
 import mk.ukim.finki.emt.labs.demo.Repository.HostRepository;
 import org.springframework.stereotype.Component;

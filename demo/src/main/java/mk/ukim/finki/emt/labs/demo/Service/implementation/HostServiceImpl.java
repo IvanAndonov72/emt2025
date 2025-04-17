@@ -1,6 +1,6 @@
 package mk.ukim.finki.emt.labs.demo.Service.implementation;
 
-import mk.ukim.finki.emt.labs.demo.Model.Host;
+import mk.ukim.finki.emt.labs.demo.Model.domain.Host;
 import mk.ukim.finki.emt.labs.demo.Repository.HostRepository;
 import mk.ukim.finki.emt.labs.demo.Service.HostService;
 import org.springframework.stereotype.Service;
